@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Report",
+    "displayName": "barcelona"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "d208571a-ab82-4d50-93ac-04d9a1deb430"
+  }
+}

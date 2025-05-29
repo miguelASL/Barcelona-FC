@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "SemanticModel",
+    "displayName": "barcelona"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "bfeff08e-d435-4796-845d-c6c36593b560"
+  }
+}

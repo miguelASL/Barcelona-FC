@@ -1,0 +1,292 @@
+{
+  "compatibilityLevel": 1550,
+  "model": {
+    "annotations": [
+      {
+        "name": "__PBI_TimeIntelligenceEnabled",
+        "value": "0"
+      },
+      {
+        "name": "PBIDesktopVersion",
+        "value": "2.128.1380.0 (24.04)"
+      },
+      {
+        "name": "PBI_QueryOrder",
+        "value": "[\"Plantilla_FC_Barcelona_24-25\"]"
+      },
+      {
+        "name": "PBI_ProTooling",
+        "value": "[\"DevMode\"]"
+      }
+    ],
+    "culture": "es-ES",
+    "cultures": [
+      {
+        "name": "es-ES",
+        "linguisticMetadata": {
+          "content": {
+            "Language": "en-US",
+            "Version": "1.0.0"
+          },
+          "contentType": "json"
+        }
+      }
+    ],
+    "dataAccessOptions": {
+      "legacyRedirects": true,
+      "returnErrorValuesAsNull": true
+    },
+    "defaultPowerBIDataSourceVersion": "powerBI_V3",
+    "sourceQueryCulture": "es-ES",
+    "tables": [
+      {
+        "name": "Plantilla_FC_Barcelona_24-25",
+        "annotations": [
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navegación"
+          },
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Dorsal",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "6a82a863-d59c-4873-be01-8be91a1e0954",
+            "sourceColumn": "Dorsal",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Jugador",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "f9e63646-a3b5-4046-85c1-efe2a6817f05",
+            "sourceColumn": "Jugador",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Posición",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "6fba9e1b-6bcc-4074-a2e8-3c5b0782d53f",
+            "sourceColumn": "Posición",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Edad",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "47dffd64-3476-4c1b-a4bf-b70349f1e73d",
+            "sourceColumn": "Edad",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Nacionalidad(es)",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "742a1657-b845-4c01-8183-d099e6fa1db0",
+            "sourceColumn": "Nacionalidad(es)",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Altura",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isDecimal\":true}"
+              }
+            ],
+            "dataType": "double",
+            "formatString": "0",
+            "lineageTag": "233dbe86-e5f8-4ad3-9b61-fc046494139e",
+            "sourceColumn": "Altura",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Pie Dominante",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "6f7f9302-66b7-4a9f-a9c7-2bea694c6fb8",
+            "sourceColumn": "Pie Dominante",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Fecha de Fichaje",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "UnderlyingDateTimeDataType",
+                "value": "Date"
+              }
+            ],
+            "dataType": "dateTime",
+            "formatString": "Long Date",
+            "lineageTag": "e570d4a5-68dd-4b12-883e-7d01374d13e9",
+            "sourceColumn": "Fecha de Fichaje",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Procedencia",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "22909cd8-da70-468d-957b-519d1a81cec4",
+            "sourceColumn": "Procedencia",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Contrato Hasta",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "UnderlyingDateTimeDataType",
+                "value": "Date"
+              }
+            ],
+            "dataType": "dateTime",
+            "formatString": "Long Date",
+            "lineageTag": "6c456446-273f-4411-8fc8-e423d0b79070",
+            "sourceColumn": "Contrato Hasta",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Valor de Mercado",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"currencyCulture\":\"es-US\"}"
+              }
+            ],
+            "dataType": "double",
+            "formatString": "\\$#,0.000000;(\\$#,0.000000);\\$#,0.000000",
+            "lineageTag": "386c906c-6185-43ba-9742-bf25bdf434c0",
+            "sourceColumn": "Valor de Mercado",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Altura_decimal",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataType": "double",
+            "expression": "'Plantilla_FC_Barcelona_24-25'[Altura] / 100",
+            "isDataTypeInferred": true,
+            "lineageTag": "36402e44-7594-4287-bc50-ac452c20e9e6",
+            "summarizeBy": "sum",
+            "type": "calculated"
+          },
+          {
+            "name": "año fin",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "expression": "YEAR('Plantilla_FC_Barcelona_24-25'[Contrato Hasta])",
+            "formatString": "0",
+            "isDataTypeInferred": true,
+            "lineageTag": "973f8991-6d7f-4cd2-a33c-141822efa160",
+            "summarizeBy": "sum",
+            "type": "calculated"
+          }
+        ],
+        "lineageTag": "32ff3e2c-d174-4a00-9601-30529c67adba",
+        "measures": [
+          {
+            "name": "valor",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "expression": "SUM('Plantilla_FC_Barcelona_24-25'[Valor de Mercado])",
+            "lineageTag": "c7ce50dd-d685-43fa-b525-4074d55eced3"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "Plantilla_FC_Barcelona_24-25",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Origen = Csv.Document(File.Contents(\"C:\\Users\\msarm\\Desktop\\football\\temporada 24-25\\Plantilla_FC_Barcelona_24-25.csv\"),[Delimiter=\",\", Columns=11, Encoding=65001, QuoteStyle=QuoteStyle.None]),",
+                "    #\"Encabezados promovidos\" = Table.PromoteHeaders(Origen, [PromoteAllScalars=true]),",
+                "    #\"Tipo cambiado\" = Table.TransformColumnTypes(#\"Encabezados promovidos\",{{\"Dorsal\", Int64.Type}, {\"Jugador\", type text}, {\"Posición\", type text}, {\"Edad\", Int64.Type}, {\"Nacionalidad(es)\", type text}, {\"Altura\", type number}, {\"Pie Dominante\", type text}, {\"Fecha de Fichaje\", type date}, {\"Procedencia\", type text}, {\"Contrato Hasta\", type date}, {\"Valor de Mercado\", type text}}),",
+                "    #\"Valor reemplazado\" = Table.ReplaceValue(#\"Tipo cambiado\",\"mill. €\",\"\",Replacer.ReplaceText,{\"Valor de Mercado\"}),",
+                "    #\"Tipo cambiado1\" = Table.TransformColumnTypes(#\"Valor reemplazado\",{{\"Valor de Mercado\", type number}})",
+                "in",
+                "    #\"Tipo cambiado1\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
